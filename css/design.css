@@ -1,0 +1,142 @@
+/*External CSS*/
+body {
+	font-family: Century Gothic;
+	font-size: 12px;
+	margin: 0;
+	padding: 0;
+}
+.wrapper{
+	background-color: white;
+	width: 1000px;
+	margin: 0px auto;
+	padding: 20px;
+}
+.header{
+	padding: 20px;
+}
+
+.header h2{
+	font-size: 10px;
+	font-family: Century Gothic;
+}
+.nav{
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+}
+.nav ul{
+	margin: 0;
+	padding: 10px 0;
+}
+.nav ul li{
+	list-style-type: none;
+	display: inline-block;
+}
+.nav ul li a{
+	text-decoration: none;
+	color: black;
+	text-transform: uppercase;
+	font-weight: bold;
+	margin-right: 20px;
+	padding: 10px;
+}
+.nav ul li a:hover{
+	color: black;
+}
+.banner{
+	width: 100%;
+	height: 250px;
+}
+.banner img{
+	width: 100%;
+	height: 250px;
+}
+.main{
+	min-height: 500px;
+}
+.left-side-bar{
+	width: 190px;
+	float: left;
+	border: 1px solid black;
+	min-height: 50px;
+	margin: 10px 10px 10px 0px;
+}
+.left-side-bar h2{
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	text-transform: uppercase;
+	color:  #C2B280;
+}
+.left-side-bar ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+.left-side-bar ul li{
+	margin: 0;
+	text-align: center;
+	border-bottom: 1px solid white;
+}
+.left-side-bar ul li a{
+	display: block;
+	width: 100%;
+	padding: 5px 0;
+	text-decoration: none;
+	font-weight: bold;
+	color: white;
+	background-color:  #C2B280;
+}
+.left-side-bar ul li a:hover{
+	color: gold;
+}
+.content{
+	width: 550px;
+	float: left;
+	min-height: 500px;
+	margin: 10px;
+}
+.content h1{
+	padding: 0;
+	margin: 0;
+	color:  #C2B280;
+	font-size: 30px;
+	border-bottom: 1px solid black;
+}
+.content h2{
+	color:  #C2B280;
+	font-size: 30px;
+}
+.content p{
+	text-align: justify;
+	line-height: 1.5;
+}
+.right-side-bar{
+	width: 180px;
+	float: right;
+	border: 1px solid black;
+	min-height: 50px;
+	margin: 10px 0 10px 10px;
+}
+.right-side-bar ul{
+	margin: 0;
+	padding: 20px;
+}
+.right-side-bar ul li{
+	list-style-type: none;
+}
+.right-side-bar ul li img{
+	width: 100%;
+}
+.footer{
+	clear: both;
+	border-top: 1px solid black;
+	padding: 0;
+	text-align: center;
+}
+.footer p{
+	font-weight: bold;
+}
+.footer img{
+	padding: 0;
+	margin: 0;
+}
